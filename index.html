@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<div>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel = "stylesheet" href = "style.css" />
+</head>
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+
+    
+    <div id="sectionBookStoreHomePage">
+        <div class="BookStoreHomePage-bg-container">
+            <h1 class="Books-name">Popular Book</h1>
+
+            <div>
+                <div class="Wingsoffire-card-container d-flex flex-row">
+                    <div>
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-apj-img.png" class="APJ-Abdul-Kalam-iamge" />
+                    </div>
+                    <div>
+                        <h1 class="book-titale">Wings Of Fire</h1>
+                        <p class="biography">An Autobiography of Abdul Kalam</p>
+                        <p class="auther">by Arun Tiwari</p>
+                        <div class="d-flex flex-row justify-content-center">
+                            <button class="btn btn-primary" onclick="display('sectionWingsoffirebookdetailpage')">Read Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom-section">
+                    <h1 class="other-book">Recommended books</h1>
+                </div>
+                <div class="card-container d-flex flex-row">
+                    <div>
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-chetan-bhagat-img.png" class="Thethreemistake-image" />
+                    </div>
+                    <div>
+                        <h1 class="chetanbhagt-book">The 3 mistakes of my life </h1>
+                        <p class="chetanbhagetbook-auther">Indian author by chetan Bhagat</p>
+                        <button class="btn btn-primary" onclick="display('sectionThreemistakeofmylifedetailpage')">Read Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container d-flex flex-row">
+                <div>
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/harrypotter-img.png" class="Harrypotter-image" />
+                </div>
+                <div>
+                    <h1 class="Harrypotter-book">Harry Potter </h1>
+                    <p class="Harrypotter-auther">and the sorcerer's Stone by J.K.Rowling</p>
+                    <button class="btn btn-primary" onclick=display('sectionHarrypotterpotterdetailpage')>Read Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+
+
+    <div id="sectionWingsoffirebookdetailpage">
+        <div class="Wingsoffirebookdetailpage-bg-container">
+            <div>
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-apj-img.png" class="APJ-Abdul-Kalam-iamge" />
+            </div>
+            <div>
+                <h1 class="book">Wings of fire</h1>
+                <p class="booauther">by Arun Tiwari</p>
+                <p class="bookdiscription">Every common man who by his sheer grit and hard <br />
+                    achieves sucsess should share his story with the rest for<br />
+                    they may find inspiration and strength to go on,in his story.<br />
+                    The "Wings of fires"is one such autobiography by<br />
+                    visitionary scientist Dr.APJ Abdul Kalam,who from very humable begining rose to be <br />
+                    the President of India.The book is Full of insights,personal moments life expriences of Dr.Kalam<br />
+                </p>
+                <button class="btn btn-warning" onclick="display('sectionBookStoreHomePage')">Back</button>
+                <button class="btn btn-primary">Buy Now</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionThreemistakeofmylifedetailpage">
+        <div class="Threemistakeofmylifedetailpage-bg-container">
+            <div>
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-chetan-bhagat-img.png" />
+            </div>
+            <div>
+                <h1 class="thethreebook">The 3 mistake of my life</h1>
+                <p class="thethreeotital">by chetan Bhagat</p>
+                <p class="thethreeparagraph">The 3 mistake of my life is the third novel written by <br />
+                    eminent india Author Chetan Bhagat Based on cricket,<br />
+                    bussiness and religion,the novel is set against the backdrop of beatiful city AHmedabad.Revolving around <br />
+                    three young Indian boys Omi,Ishan and Govind,the <br />
+                    book goes on to narrate how the three are trying their <br />
+                    best to make ends meet in the city.Based on real events, <br />
+                    the book starts with a dramatic twist ,whre bhagat is <br />
+                    rading an e-mail sent by som young person Govind. <br />
+                </p>
+                <button class="btn btn-warning" onclick="display('sectionBookStoreHomePage')">Back</button>
+                <button class="btn btn-primary">Buy Now</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionHarrypotterpotterdetailpage">
+        <div class="Harrypotterpotterdetailpage-bg-container">
+            <div>
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/harrypotter-img.png" class="image" />
+            </div>
+            <div>
+                <h1 class="herrypotter">Harry Potter</h1>
+                <p class="herrypotter-titale">by J.K.Rolling</p>
+                <p class="herrypotter-discription">Harry potter's life is miserable.His parents are dead and <br />
+                    he's stuck with his heartless relatives,who force him to live in a tiny closet under the stairs.<br />
+                    But his fortune changes when he recives a letter that tells him the truth about himself.<br />
+                    he's a wizard.A mystrious visitor rescues him from his relative and take him to <br />
+                    his new home,Hogwarts Schools of witchcraft and wizardry.<br />
+                    After a lifetime of bottling up his magical powers,Harry finally <br />
+                    fees like a normal kid.<br />
+                </p>
+                <button class="btn btn-warning" onclick="display('sectionBookStoreHomePage')">Back</button>
+                <button class="btn btn-primary">Buy Now</button>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+</div>
+</div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
